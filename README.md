@@ -1,12 +1,12 @@
 #  Cookiecutter Template: Repeatable Data Analysis with Notebooks 
 
-A [cookiecutter template](https://cookiecutter.readthedocs.io/en/1.7.2/) for simple data analysis.
+Шаблон [cookiecutter template](https://cookiecutter.readthedocs.io/en/1.7.2/) для простого анализа данных.
 
-Full details and walk-through over at [**Practical Business Python:  Building a Repeatable Data Analysis Process with Jupyter Notebooks** ](http://pbpython.com/notebook-process.html) on the background and how to use this cookiecutter template.
+Идея из статьи [**Practical Business Python:  Building a Repeatable Data Analysis Process with Jupyter Notebooks** ](http://pbpython.com/notebook-process.html).
 
 ## Структура директорий
 
-This template will jumpstart your data science projects with the following predictable organizational file structure:
+Этот шаблон ускорит разработку проектов в области науки о данных, т.к. обладает ясной и предсказуемой структурой файлов и директорий:
 
 ```bash
 .
@@ -28,7 +28,7 @@ $ conda install cookiecutter
 
 ## Использование
 
-В директории, в которой вы хотите держать запускаемый проект, запустите шаблон следующим образом, ответив на вопросы, относящиеся к вашему проекту:
+В директории, в которой вы хотите хранить запускаемый проект, выполните шаблон следующим образом, ответив на вопросы, относящиеся к вашему проекту:
 
 ```bash
 $ cookiecutter https://github.com/dm-fedorov/pbp_cookiecutter        
@@ -37,4 +37,4 @@ directory_name [data_journalism_project]:
 description [More background on the project]: Research into latest news trends.
 ```
 
-В результате получится директория `data_journalism_project`, в которой хранятся необходимые файлы.
+В результате появится директория `data_journalism_project`, в которой хранятся необходимые файлы.
