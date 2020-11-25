@@ -10,19 +10,16 @@ This template will jumpstart your data science projects with the following predi
 
 ```bash
 .
-├── 1-Data_Prep.ipynb  # Data prep notebook
-├── 2-EDA.ipynb        # Final analysis notebook
-├── data               # Categorized data files
-│   ├── external       # External data files  
-│   ├── interim        # Working folder
-│   ├── processed      # Cleaned and ready to use
-│   └── raw            # Unmodified originals
-└── reports            # Final reports
+├── 1-Data_Prep.ipynb  # Блокнот для подготовки данных
+├── 2-EDA.ipynb        # Блокнот для анализа данных
+├── data               # Директория с данными
+│   ├── interim        # Рабочая директория для временных файлов
+│   ├── processed      # Очищенные данные, готовые к анализу
+│   └── raw            # Оригинальные (сырые) данные
+└── reports            # Финальные отчеты
 ```
 
 ## Установка
-
-To use Cookiecutter, you must have it installed along with Python 3. Once you have Python installed, the recommended way to install Cookiecutter is as follows. Install to the current user's folder, upgrade if available:
 
 ```bash
 $ conda config --add channels conda-forge
@@ -31,7 +28,7 @@ $ conda install cookiecutter
 
 ## Использование
 
-Then in the folder you want to *contain* the project you're starting, run the template as follows, answering the questions as relevant to your project:
+В директории, в которой вы хотите держать запускаемый проект, запустите шаблон следующим образом, ответив на вопросы, относящиеся к вашему проекту:
 
 ```bash
 $ cookiecutter https://github.com/dm-fedorov/pbp_cookiecutter        
@@ -40,4 +37,4 @@ directory_name [data_journalism_project]:
 description [More background on the project]: Research into latest news trends.
 ```
 
-Now, in this example, we'll have a folder `data_journalism_project` with the structure described above ready to get to work!
+В результате получится директория `data_journalism_project`, в которой хранятся необходимые файлы.
