@@ -1,8 +1,8 @@
-#  Cookiecutter Template: Repeatable Data Analysis with Notebooks 
-
-Шаблон [cookiecutter template](https://cookiecutter.readthedocs.io/en/1.7.2/) для простого анализа данных.
+#  Шаблон Cookiecutter: Повторяемый анализ данных с помощью Jupyter Блокнотов 
 
 Идея из статьи [**Practical Business Python:  Building a Repeatable Data Analysis Process with Jupyter Notebooks** ](http://pbpython.com/notebook-process.html).
+
+Шаблон [cookiecutter template](https://cookiecutter.readthedocs.io/en/1.7.2/) для простого анализа данных.
 
 ## Структура директорий
 
