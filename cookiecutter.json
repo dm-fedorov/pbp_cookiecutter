@@ -1,5 +1,5 @@
 {
-    "project_name": "project_name",
-    "directory_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
-    "description": "More background on the project"
+    "имя_проекта": "project_name",
+    "имя_директории_проекта": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "описание_проекта": "Несколько слов о проекте"
 }
