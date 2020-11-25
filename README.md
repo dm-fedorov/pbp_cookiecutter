@@ -33,7 +33,7 @@ $ pip3 install -U --user cookiecutter
 Then in the folder you want to *contain* the project you're starting, run the template as follows, answering the questions as relevant to your project:
 
 ```bash
-$ cookiecutter https://github.com/talkpython/pbp_cookiecutter        
+$ cookiecutter https://github.com/dm-fedorov/pbp_cookiecutter        
 project_name [project_name]: data_journalism_project
 directory_name [data_journalism_project]: 
 description [More background on the project]: Research into latest news trends.
