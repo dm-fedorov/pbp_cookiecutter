@@ -2,7 +2,7 @@
 
 Типичный процесс проведения анализа данных включает несколько этапов:
 
-- предварительная обработка данных (1-Data_Prep);
+- предварительная обработка данных или ETL, Extract-Transform-Load (1-Data_Prep);
 - анализ данных или Exploratory Data Analysis (2-EDA).
 
 ![Drag Racing](https://pbpython.com/images/Notebook_Best_Practices_flow.png)
@@ -24,12 +24,20 @@ Jupyter (Lab) Notebook перекладывает ответственность
 
 ## Установка
 
-В дистрибутиве Anaconda/Miniconda:
+В дистрибутиве Anaconda/Miniconda установка следующая:
 
 ```bash
 $ conda config --add channels conda-forge
 $ conda install cookiecutter
 ```
+
+Если начнет ругаться на отсутствие git:
+
+```bash
+$ conda install -c anaconda git
+```
+
+В пути желательно не указывать кириллические символы, Anaconda/Miniconda их не любят.
 
 ## Использование
 
